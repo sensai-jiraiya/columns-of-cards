@@ -10,12 +10,12 @@ html {
 }
 
 .btn {
-  display: inline-block;
+  display: flex;
   padding: .3em .75em;
   border-radius: 8px;
   background-color: #333;
   color: #fff;
-  font-size: 1.123rem;
+  font-size: 1.125rem;
   border-width: 3px;
   border-style: solid;
   border-color: #333;
@@ -30,8 +30,9 @@ a.btn.btn-secondary.btn-small {
 
 h1 {
   font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
   text-align: center;
-  font-weight: bold;
+  font-weight: bolder;
   margin: 1.5rem 0;
 }
 
@@ -44,17 +45,6 @@ h1 {
   font-size: .875rem;
 }
 
-.b-b1 {
-  border-style: solid;
-  border-width: 0 1px;
-  border-color: #333;
-  padding: .75rem;
-  float: left;
-  width: 25%;
-  text-align: left;
-  background-color: #e2e2e2;
-}
-
 .b-b2 {
   border-style: solid;
   border-width: 0 1px;
@@ -64,6 +54,17 @@ h1 {
   width: 25%;
   text-align: left;
   background-color: #ccc;
+}
+
+.b-b1 {
+  border-style: solid;
+  border-width: 0 1px;
+  border-color: #333;
+  padding: .75rem;
+  float: left;
+  width: 25%;
+  text-align: left;
+  background-color: #e2e2e2;
 }
 
 .b-b3 {
@@ -81,7 +82,7 @@ h1 {
   border-style: solid;
   border-width: 0 1px;
   border-color: #333;
-  padding: .75rem;
+  padding: .95rem;
   float: left;
   width: 25%;
   text-align: left;
@@ -117,7 +118,6 @@ img {
 .b-b1 p {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
-  font-weight: bolder;
   display: inline-block;
   margin: 0 0 1rem;
   text-align: left;
@@ -126,7 +126,6 @@ img {
 .b-b2 p {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
-  font-weight: bolder;
   display: inline-block;
   margin: 0 0 1rem;
   text-align: left;
@@ -135,17 +134,24 @@ img {
 .b-b3 p {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
-  font-weight: bolder;
   display: inline-block;
   margin: 0 0 1rem;
   text-align: left;
 }
 
-.b-b4 {
+.b-b4 p {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
-  font-weight: bolder;
   display: inline-block;
   margin: 0 0 1rem;
   text-align: left;
+}
+
+a.btn.btn-small p {
+  font-size: .875rem;
+  margin-bottom: 2rem;
+}
+
+body {
+  margin: 0;
 }
