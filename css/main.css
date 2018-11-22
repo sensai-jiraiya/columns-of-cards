@@ -44,7 +44,7 @@ h1 {
   font-size: .875rem;
 }
 
-.b1 {
+.b-b1 {
   border-style: solid;
   border-width: 0 1px;
   border-color: #333;
@@ -55,7 +55,7 @@ h1 {
   background-color: #e2e2e2;
 }
 
-.b2 {
+.b-b2 {
   border-style: solid;
   border-width: 0 1px;
   border-color: #333;
@@ -64,10 +64,9 @@ h1 {
   width: 25%;
   text-align: left;
   background-color: #ccc;
-  overflow: hidden;
 }
 
-.b3 {
+.b-b3 {
   border-style: solid;
   border-width: 0 1px;
   border-color: #333;
@@ -78,7 +77,7 @@ h1 {
   background-color: #aaa;
 }
 
-.b4 {
+.b-b4 {
   border-style: solid;
   border-width: 0 1px;
   border-color: #333;
@@ -88,4 +87,65 @@ h1 {
   text-align: left;
   background-color: #999;
   text-decoration: none;
+}
+
+h2 {
+  display: block;
+  float: left;
+  clear: left;
+  font-size: 1rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  float: left;
+  clear: left;
+  font-size: .875rem;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto 1rem;
+  padding-bottom: .75rem;
+}
+
+.b-b1 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  display: inline-block;
+  margin: 0 0 1rem;
+  text-align: left;
+}
+
+.b-b2 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  display: inline-block;
+  margin: 0 0 1rem;
+  text-align: left;
+}
+
+.b-b3 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  display: inline-block;
+  margin: 0 0 1rem;
+  text-align: left;
+}
+
+.b-b4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  display: inline-block;
+  margin: 0 0 1rem;
+  text-align: left;
 }
