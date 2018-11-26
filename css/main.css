@@ -55,3 +55,15 @@ i {
   padding: .5em;
   margin-bottom: 1em;
 }
+
+img {
+  flex-grow: 1;
+  flex-direction: row;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.box {
+  width: 100px;
+}
