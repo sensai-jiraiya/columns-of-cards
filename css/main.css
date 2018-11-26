@@ -81,5 +81,9 @@ img {
   text-decoration: none;
   padding: .75rem;
   margin-top: 2em;
+}
 
+.btn:hover {
+  background-color: #aaa;
+  color: #999;
 }
