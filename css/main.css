@@ -29,5 +29,29 @@ h3 {
 
 p {
   margin: 0;
-  padding-top:1em;
+  padding-bottom:1em;
+}
+
+i {
+  font-size: .875rem;
+}
+
+.headache {
+  display: flex;
+  background-color: #f2f2f2;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 1em;
+}
+
+.headache li {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 25%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: .5em;
+  margin-bottom: 1em;
 }
